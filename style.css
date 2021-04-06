@@ -169,6 +169,10 @@ html {
       min-width: 400px;
       max-width: 600px;
       min-height: 200px;
-      padding: 0 2rem;
+      padding: 2rem;
       background-color: #fff;
+  }
+
+  .modal-inner img {
+    width: 100%;
   }
