@@ -166,8 +166,7 @@ html {
   }
 
   .modal-inner {
-      min-width: 400px;
-      max-width: 600px;
+      max-width: 80vw;
       min-height: 200px;
       padding: 2rem;
       background-color: #fff;
@@ -176,3 +175,22 @@ html {
   .modal-inner img {
     width: 100%;
   }
+
+  @media (orientation: landscape) {
+    .modal-inner {
+      max-width: 50vw; 
+    }
+  }
+
+  @media (min-width: 800px) {
+    .modal-inner {
+      min-width: 400px;
+      max-width: 600px;
+    }
+
+    .modal-inner img {
+      width: 100%;
+    }
+  }
+
+ 
